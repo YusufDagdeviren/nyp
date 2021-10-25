@@ -47,13 +47,17 @@ public class Main {
        
        
        
-       Circle circle = new Circle();
+       /*Circle circle = new Circle();
        circle.radius = 0;
        System.out.println("Metod çağırılmadan önce");
         System.out.println(circle.radius);
         degistir(circle);
         System.out.println("Metod çağırıldıktan sonra ");
-        System.out.println(circle.radius);
+        System.out.println(circle.radius);*/
+       
+       
+       Bmi bmi = new Bmi(19,49,1.68);
+        System.out.println(bmi.getStatus());
        
     }
 }

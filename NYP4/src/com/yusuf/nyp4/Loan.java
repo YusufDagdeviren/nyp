@@ -17,7 +17,7 @@ public class Loan {
     private int numbrOfYears; // Yılı
     private double loanAmount; //kredi mik
     private Date loanDate; //kredi tarihi
-
+//sadasdasdasdasda d
     public Loan() {
     }
     

@@ -50,6 +50,8 @@ public class Bmi {
         }
         else if(getBmi()>30){
             return "Aşrırı kilolu";
+        }else{
+            return "Yanlış lan";
         }
     }
     

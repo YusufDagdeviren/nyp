@@ -70,7 +70,7 @@ public class Loan {
     }
     public double getTotalPayment(){
         
-        return 12 * getMonthlyPayment();
+        return numbrOfYears *12 * getMonthlyPayment();
         
     }        
             

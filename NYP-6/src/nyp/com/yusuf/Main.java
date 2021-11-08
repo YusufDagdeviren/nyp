@@ -28,8 +28,8 @@ public class Main {
         System.out.println(String.format("%x", 26));*/
         
         
-        StringBuilder stringBuilder = new StringBuilder("Merhaba");
-       //
+      /*  StringBuilder stringBuilder = new StringBuilder("Merhaba");
+     
         stringBuilder.append("Ahmet");
         System.out.println(stringBuilder.toString());
         stringBuilder.delete(0, 1);
@@ -39,7 +39,15 @@ public class Main {
         stringBuilder.replace(0, 3, "cab");
         System.out.println(stringBuilder.toString());
         stringBuilder.setCharAt(1, 'i');
-        System.out.println(stringBuilder.toString());
+        System.out.println(stringBuilder.toString());*/
+      
+      GeometricObject geometricObject = new GeometricObject();
+        System.out.println(geometricObject.toString());
+      
+      
+      
+      
+      
     }
   
 

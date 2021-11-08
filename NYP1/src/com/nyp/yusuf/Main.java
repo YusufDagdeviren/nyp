@@ -31,7 +31,6 @@ class Circle{
         
         return Math.PI * radius*radius;
         
-        
     }
     
     public double getPerimeter(){

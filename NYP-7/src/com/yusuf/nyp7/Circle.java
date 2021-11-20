@@ -8,7 +8,7 @@ public class Circle extends GeometricObject {
     }
 
     public Circle(double radius) {
-        super();
+        //super();
         this.radius = radius; 
     }
 

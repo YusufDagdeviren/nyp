@@ -27,10 +27,19 @@ public class StackOfIntegers {
         if(size>=elements.length){
             int[] temp = new int[elements.length *2];
             System.arraycopy(elements, 0, temp, 0, elements.length);
+            
             elements = temp;
             
         }
         elements[size++] = value;
+        
+    }
+    public void getElements(){
+        
+        for(int i = 0; i<elements.length;i++){
+            System.out.println(elements[i]);
+        }
+        
         
     }
     public int pop(){

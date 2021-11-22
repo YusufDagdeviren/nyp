@@ -2,6 +2,8 @@
 package nyp.yusuf.com;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 
 public class Main {
@@ -50,7 +52,7 @@ public class Main {
         System.out.println(s.equals(b)); //TRUE*/
         
         
-        ArrayList<Integer> list = new ArrayList<>();
+       /* ArrayList<Integer> list = new ArrayList<>();
         list.add(0);
         list.add(1);
         list.add(1, 55);
@@ -69,20 +71,43 @@ public class Main {
         System.out.println(list);
         System.out.println(list.size());
         //list.clear();
-        //System.out.println(list);// []
+        //System.out.println(list);// [] döner
+        */
         
+        /*Integer[] myArray = {32,23,20,12,32,24,18};
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(myArray)); // myArray dizisini list e atar
+        Collections.shuffle(list); // liste karıştırıcı
+        System.out.println(list);*/
+      /*  for(int i : list) //ForEach döngüsü ArrayListlerde kullanılır
+        {
+            System.out.println(i);
+        }*/
         
+       /* ArrayList<String> stringList = new ArrayList<>();
+        stringList.add("ahmet");
+        stringList.add("yusuf");
+        stringList.add("mehmet");
+        stringList.add("ali");
+        stringList.add("veli");
         
+        String[] dizi = new String[stringList.size()];
+        stringList.toArray(dizi);// ArrayListi diziye taşır
+        for(String s:dizi){
+            System.out.println(s);
+        }*/
+        MyStack myStack = new MyStack();
+        myStack.push(0);
+        myStack.push(1);
+        myStack.push(2);
+        myStack.push(3);
+        myStack.push(4);
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
         
         
         

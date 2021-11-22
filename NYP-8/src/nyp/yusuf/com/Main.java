@@ -107,7 +107,7 @@ public class Main {
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
-        System.out.println(myStack.pop());
+        
         
         
         

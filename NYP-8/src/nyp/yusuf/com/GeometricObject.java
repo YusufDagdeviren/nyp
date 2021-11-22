@@ -41,7 +41,7 @@ public class GeometricObject {
 
     @Override
     public String toString() {
-        return String.format("%s renkli %b dolulukta bir nesne %s tarihinde oluşturuldu", color,filled,dateCreated.toString());
+        return String.format("%s renkli %b dolulukta bir nesne %s tarihinde oluşturuldu\n", color,filled,dateCreated.toString());
     }
     
     

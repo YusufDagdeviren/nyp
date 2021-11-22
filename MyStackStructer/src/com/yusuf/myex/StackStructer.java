@@ -9,7 +9,7 @@ package com.yusuf.myex;
 
 public class StackStructer {
     
-    private int size; // otomatik 0 olarak atama yapılır
+    private int size = -1; // otomatik 0 olarak atama yapılır
     private int[] element;
     private static final int DİMENSİON = 16;
 
@@ -33,26 +33,34 @@ public class StackStructer {
             element = temp;
             
         }
-        element[size++] = sayi; // İlk çalıştığında size 1 oldu fakat 0.indiste değer var
+        element[++size] = sayi; // İlk çalıştığında size 1 oldu fakat 0.indiste değer var
         
         
     }
     public int pop(){
              
-        return element[--size]; //İlk çalıştığında size 1 fakat 0. indiste değer var
+        if(isEmpty()){
+            System.out.println("Zaten Liste Boş");
+            return Integer.MIN_VALUE;
+        }
+        return element[size--]; //İlk çalıştığında size 1 fakat 0. indiste değer var
 
         
     }
     public int peek(){
-        
-        return element[size -1]; 
+        if(isEmpty()){
+            System.out.println("Zaten Liste Boş");
+            return Integer.MIN_VALUE;
+        }
+            
+        return element[size]; 
         
     }
     
     
     public boolean isFull(){
         
-     if(size>=element.length){
+     if(size>=element.length-1){
          return true;
      }else{
          return false;
@@ -62,11 +70,12 @@ public class StackStructer {
     } 
     public boolean isEmpty(){
         
-       if(size>=element.length){
-         return false;
-     }else{
-         return true;
-     }
+       if(size == -1){
+           return true;
+       }else{
+           return false;
+           
+       }
         
         
         

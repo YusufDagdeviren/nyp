@@ -5,6 +5,37 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+/*class A{
+    public void foo(Object o){
+        System.out.println("A");
+    }
+}
+class B{
+    public void foo(String O){
+        System.out.println("B");
+    }
+}
+
+class C extends A{
+
+    
+    public void foo(String o) {
+        System.out.println("C");
+    }
+    
+}
+class D extends B{
+
+    
+    public void foo(Object o ) {
+        System.out.println("D");
+    }
+    
+}*/
+
+
+
+
 
 public class Main {
     
@@ -22,6 +53,30 @@ public class Main {
     
     
     public static void main(String[] args) {
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       /* A a = new C();
+        a.foo("Java");
+        C c = new C();
+        c.foo("Java");
+        B b = new D();
+        b.foo("Java");
+        D d = new D();
+        d.foo("Java");*/
+        
         
       /*  Rectangle rectangle = new Rectangle(20, 30, "Blue", true);
         Circle circle = new Circle(5, "Yellow", true);FALSE
@@ -95,7 +150,7 @@ public class Main {
         for(String s:dizi){
             System.out.println(s);
         }*/
-        MyStack myStack = new MyStack();
+      /*  MyStack myStack = new MyStack();
         myStack.push(0);
         myStack.push(1);
         myStack.push(2);
@@ -106,7 +161,7 @@ public class Main {
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
-        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());*/
         
         
         

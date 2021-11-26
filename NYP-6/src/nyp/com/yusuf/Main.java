@@ -52,7 +52,7 @@ public class Main {
       
       StringBuilder stringBuilder = new StringBuilder("Merhaba");
         System.out.println(stringBuilder.toString());
-      stringBuilder.replace(0, 0, "yizt"); // 0.idnisten 4 e kadar değiştir
+      stringBuilder.replace(0, 0, "yizt"); // yiztMerhaba
         System.out.println(stringBuilder.toString());
       
       

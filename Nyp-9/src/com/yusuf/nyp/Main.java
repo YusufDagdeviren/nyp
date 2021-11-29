@@ -12,9 +12,7 @@ public class Main {
         return object.getArea()==object2.getArea();
 
     }
-
-
-
+//helllooo
     public static void main(String[] args) {
 
     GeometricObject geometricObject1 = new Circle(5);

@@ -1,6 +1,6 @@
 package com.yusuf.nyp2;
 
-public class Circle implements Comparable<Circle>{
+public class Circle implements Comparable<Circle>,Cloneable{
 
 
     private double radius;
@@ -26,7 +26,16 @@ public class Circle implements Comparable<Circle>{
     }
 
 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        Circle circle =(Circle) obj;
+       return this.radius == ((Circle) obj).getRadius();
+    }
 
     @Override
     public int compareTo(Circle o) {

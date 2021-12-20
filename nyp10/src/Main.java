@@ -26,8 +26,7 @@ public class Main {
             throw yusufExcepiton;
         }
         return sayi;
-
-
+//deneme
     }
 
      public static void main(String[] args) {
